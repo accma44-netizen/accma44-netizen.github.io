@@ -1,0 +1,169 @@
+{
+  "id": "natural-earth-saudi-admin0-10m",
+  "title": "Saudi Arabia land country polygon — Natural Earth Admin 0 Countries 1:10m",
+  "publisher": "Natural Earth / nvkelso natural-earth-vector original repository",
+  "retrievedAt": "2026-10-08T21:14:09.897061+00:00",
+  "sourceUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/geojson/ne_10m_admin_0_countries.geojson",
+  "sourceRepositoryUrl": "https://github.com/nvkelso/natural-earth-vector",
+  "sourcePath": "geojson/ne_10m_admin_0_countries.geojson",
+  "commitSha": "9380cca83db5f9aef52d5e762765100745f84b27",
+  "sourceCommitDate": "2022-05-13T05:33:10Z",
+  "commitMetadataUrl": "https://api.github.com/repos/nvkelso/natural-earth-vector/commits?path=geojson/ne_10m_admin_0_countries.geojson&per_page=1",
+  "datasetVersion": "5.1.1",
+  "documentationDeclaredVersion": "5.1.1",
+  "sourceSha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+  "sourceBytes": 13287234,
+  "sourceFeatureCount": 258,
+  "outputFile": "knowledge/geo/saudi-boundary.geojson",
+  "outputSha256": "68bd32ec37c228415e7a2905ef812620828476b9fcf33ea93f73969258c865ef",
+  "outputBytes": 55185,
+  "extraction": {
+    "selector": {
+      "ISO_A3": "SAU"
+    },
+    "matches": 1,
+    "operation": "Single original Feature copied without simplification, coordinate changes, buffering or geometry repair. Original properties retained."
+  },
+  "resolution": {
+    "datasetScale": "1:10m",
+    "representativeFraction": "1:10,000,000",
+    "isTenMetreSpatialAccuracy": false,
+    "is110mDataset": false
+  },
+  "crs": "WGS 84 longitude/latitude degrees (GeoJSON coordinate order longitude, latitude)",
+  "geometry": {
+    "type": "MultiPolygon",
+    "polygonCount": 11,
+    "ringCount": 11,
+    "coordinateCountIncludingRingClosures": 2368,
+    "bbox": [
+      34.572765,
+      16.370958,
+      55.637565,
+      32.121348
+    ],
+    "syntaxValid": true,
+    "allRingsClosed": true,
+    "allCoordinatesFiniteAndWithinLonLatRange": true,
+    "topologyRepairApplied": false,
+    "properSegmentCrossings": 0,
+    "intersectionCheck": "All nonadjacent segments checked for proper crossings, within and between polygons. This is a lightweight topology check, not a survey certification."
+  },
+  "license": {
+    "name": "Public Domain",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "attributionRequired": false,
+    "suggestedAttribution": "Made with Natural Earth."
+  },
+  "scope": {
+    "purpose": "General geographic gating to Saudi land extent in the pilot.",
+    "isSaudiOfficialBoundary": false,
+    "isMunicipalGis": false,
+    "isParcelBoundary": false,
+    "isSurveyAccurate": false,
+    "notes": [
+      "Natural Earth is a generalized cartographic dataset at 1:10,000,000; coastline and boundary proximity need appropriate tolerance/review.",
+      "Natural Earth represents de facto country boundaries by default. This is not an authoritative national boundary determination.",
+      "GEOSA official map page was identified; no directly usable public vector polygon was obtained during the bounded search. This does not assert that none exists."
+    ],
+    "officialSaudiReferenceUrl": "https://geosa.gov.sa/en/About/Pages/OfficialSaudiMap.aspx"
+  },
+  "verification": {
+    "method": "Independent ray casting over each polygon exterior, subtracting polygon holes; named points are representative city anchors, not address records.",
+    "tests": [
+      {
+        "name": "Riyadh",
+        "coordinates": [
+          46.6753,
+          24.7136
+        ],
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "name": "Jeddah",
+        "coordinates": [
+          39.1925,
+          21.5433
+        ],
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "name": "Dubai",
+        "coordinates": [
+          55.2708,
+          25.2048
+        ],
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "name": "Doha",
+        "coordinates": [
+          51.531,
+          25.2854
+        ],
+        "expected": false,
+        "actual": false,
+        "passed": true
+      },
+      {
+        "name": "Amman",
+        "coordinates": [
+          35.9106,
+          31.9539
+        ],
+        "expected": false,
+        "actual": false,
+        "passed": true
+      }
+    ],
+    "allPassed": true
+  },
+  "sourceFetch": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/geojson/ne_10m_admin_0_countries.geojson",
+    "finalUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/geojson/ne_10m_admin_0_countries.geojson",
+    "httpStatus": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "retrievedAt": "2026-10-08T21:14:15.128081+00:00"
+  },
+  "documentationFiles": [
+    {
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+      "finalUrl": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "retrievedAt": "2026-10-08T21:14:16.913133+00:00",
+      "fileName": "natural-earth-country-documentation.html",
+      "bytes": 55857,
+      "sha256": "25b452eb5f4ace6b0b88f5054fecac6322c90de17377ea7eb1da552402bee260",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "finalUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "retrievedAt": "2026-10-08T21:14:16.677247+00:00",
+      "fileName": "natural-earth-license.html",
+      "bytes": 38013,
+      "sha256": "97cad418391682b69f6e3105e27570e37c06fc7fff89e8247eaba7851cb3a44c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/10m_cultural/ne_10m_admin_0_countries.VERSION.txt",
+      "finalUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/10m_cultural/ne_10m_admin_0_countries.VERSION.txt",
+      "httpStatus": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "retrievedAt": "2026-10-08T21:14:16.089314+00:00",
+      "fileName": "natural-earth-version.txt",
+      "bytes": 6,
+      "sha256": "f9893302cd3158f3b5aea394dcd2a91574869e9e6ff69e9235b10a3bf8c983fb",
+      "status": "downloaded"
+    }
+  ]
+}

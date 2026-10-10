@@ -1,0 +1,23 @@
+{
+  "commit": "87416418657359cb625c412a48b6e1d6d41c29bd",
+  "repository": "https://github.com/tesseract-ocr/tessdata_fast",
+  "files": [
+    {
+      "size": 1432056,
+      "sha256": "e3206d3dc87fd50c24a0fb9f01838615911d25168f4e64415244b67d2bb3e729",
+      "name": "ara.traineddata"
+    },
+    {
+      "size": 4113088,
+      "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "name": "eng.traineddata"
+    },
+    {
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "name": "LICENSE"
+    }
+  ],
+  "retrievedAt": "2026-10-08T22:05:38.2642321Z",
+  "license": "Apache-2.0"
+}
